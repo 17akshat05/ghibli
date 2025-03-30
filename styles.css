@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.image-section {
+    margin-top: 20px;
+}
+
+.preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.download-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f04e30;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
