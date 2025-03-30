@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Art Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Upload an Image for Art Conversion</h1>
+
+        <input type="file" id="upload" accept="image/*">
+        <button id="convertBtn">Convert Image</button>
+
+        <div class="image-section">
+            <h2>Original Image</h2>
+            <img id="originalImage" src="" alt="Original Image" class="preview" style="display: none;">
+        </div>
+
+        <div class="results">
+            <div class="image-section">
+                <h2>Ghibli Style</h2>
+                <canvas id="ghibliCanvas" class="preview"></canvas>
+                <a id="downloadGhibli" class="download-btn" download="ghibli.png" style="display: none;">Download</a>
+            </div>
+
+            <div class="image-section">
+                <h2>Manga Style</h2>
+                <canvas id="mangaCanvas" class="preview"></canvas>
+                <a id="downloadManga" class="download-btn" download="manga.png" style="display: none;">Download</a>
+            </div>
+
+            <div class="image-section">
+                <h2>Lego Style</h2>
+                <canvas id="legoCanvas" class="preview"></canvas>
+                <a id="downloadLego" class="download-btn" download="lego.png" style="display: none;">Download</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
